@@ -1,0 +1,6 @@
+# Normalise line endings so diffs stay readable across Windows and Linux checkouts.
+* text=auto eol=lf
+*.py text diff=python
+*.md text
+*.json text
+*.png binary

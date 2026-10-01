@@ -1,0 +1,5 @@
+﻿# Pinned to what was measured. The pipeline needs only the standard library to run; pytest is
+# for the suite and matplotlib only for the figures. A real deployment would add an LLM client
+# behind the same node interface.
+pytest>=8.0
+matplotlib>=3.8

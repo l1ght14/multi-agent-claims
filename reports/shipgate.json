@@ -1,0 +1,528 @@
+{
+  "gate1_recorded_runs": {
+    "n_runs": 30,
+    "terminals": {
+      "awaiting_human": 9,
+      "rejected": 12,
+      "step_limit": 9
+    },
+    "traces": {
+      "CLM-001": [
+        "extractor",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-002": [
+        "extractor",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-003": [
+        "extractor",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-004": [
+        "extractor",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-005": [
+        "extractor",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-006": [
+        "extractor",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-007": [
+        "extractor",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-008": [
+        "extractor",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-009": [
+        "extractor",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-010": [
+        "extractor",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-011": [
+        "extractor",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-012": [
+        "extractor",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-013": [
+        "extractor",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-014": [
+        "extractor",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-015": [
+        "extractor",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-016": [
+        "extractor",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-017": [
+        "extractor",
+        "investigator",
+        "reviewer",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-018": [
+        "extractor",
+        "investigator",
+        "reviewer",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-019": [
+        "extractor",
+        "investigator",
+        "reviewer",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-020": [
+        "extractor",
+        "investigator",
+        "reviewer",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-021": [
+        "extractor",
+        "investigator",
+        "reviewer",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-022": [
+        "extractor",
+        "investigator",
+        "reviewer",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-023": [
+        "extractor",
+        "investigator",
+        "reviewer",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-024": [
+        "extractor",
+        "investigator",
+        "reviewer",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-025": [
+        "extractor",
+        "investigator",
+        "reviewer",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-026": [
+        "extractor"
+      ],
+      "CLM-027": [
+        "extractor"
+      ],
+      "CLM-028": [
+        "extractor",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-029": [
+        "extractor",
+        "investigator",
+        "reviewer"
+      ],
+      "CLM-030": [
+        "extractor",
+        "investigator",
+        "reviewer"
+      ]
+    },
+    "problems": []
+  },
+  "gate2_replay": {
+    "ok": true,
+    "claim_id": "CLM-017",
+    "bounced": true,
+    "resumed_from_step": 3,
+    "original_terminal": "step_limit",
+    "replay_terminal": "step_limit",
+    "original_fingerprint": "4fd3443fca2d8150",
+    "replay_fingerprint": "4fd3443fca2d8150",
+    "original_path": [
+      "extractor",
+      "investigator",
+      "reviewer",
+      "investigator",
+      "reviewer"
+    ],
+    "replay_path": [
+      "extractor",
+      "investigator",
+      "reviewer",
+      "investigator",
+      "reviewer"
+    ],
+    "replay_bounces": 2,
+    "problems": []
+  },
+  "gate3_loop_guard": {
+    "settings": [
+      {
+        "budget": "default",
+        "max_bounces": 2,
+        "max_steps": 12,
+        "claims_run": 30,
+        "all_terminated": true,
+        "claims_that_bounced": 9
+      },
+      {
+        "budget": "generous",
+        "max_bounces": 8,
+        "max_steps": 40,
+        "claims_run": 30,
+        "all_terminated": true,
+        "claims_that_bounced": 9
+      },
+      {
+        "budget": "very tight",
+        "max_bounces": 1,
+        "max_steps": 3,
+        "claims_run": 30,
+        "all_terminated": true,
+        "claims_that_bounced": 9
+      }
+    ],
+    "loop_guard_exercised": true,
+    "problems": []
+  },
+  "gate4_cost": {
+    "n_claims": 30,
+    "total_tokens": 4328,
+    "total_dollars": 0.0,
+    "mean_tokens": 144.3,
+    "mean_dollars": 0.0,
+    "max_tokens_single_run": 210,
+    "max_dollars_single_run": 0.0,
+    "by_terminal": {
+      "awaiting_human": 9,
+      "rejected": 12,
+      "step_limit": 9
+    },
+    "cost_by_terminal": {
+      "awaiting_human": 0.0,
+      "rejected": 0.0,
+      "step_limit": 0.0
+    },
+    "ceiling_enforced_in_code": true,
+    "ceiling_demo": "dollar budget exhausted: $1.3800/$0.0200",
+    "problems": []
+  },
+  "per_claim": [
+    {
+      "claim_id": "CLM-001",
+      "terminal": "awaiting_human",
+      "steps": 3,
+      "bounces": 0,
+      "tokens": 140,
+      "dollars": 0.0,
+      "stop_reason": null
+    },
+    {
+      "claim_id": "CLM-002",
+      "terminal": "awaiting_human",
+      "steps": 3,
+      "bounces": 0,
+      "tokens": 140,
+      "dollars": 0.0,
+      "stop_reason": null
+    },
+    {
+      "claim_id": "CLM-003",
+      "terminal": "awaiting_human",
+      "steps": 3,
+      "bounces": 0,
+      "tokens": 140,
+      "dollars": 0.0,
+      "stop_reason": null
+    },
+    {
+      "claim_id": "CLM-004",
+      "terminal": "awaiting_human",
+      "steps": 3,
+      "bounces": 0,
+      "tokens": 140,
+      "dollars": 0.0,
+      "stop_reason": null
+    },
+    {
+      "claim_id": "CLM-005",
+      "terminal": "awaiting_human",
+      "steps": 3,
+      "bounces": 0,
+      "tokens": 140,
+      "dollars": 0.0,
+      "stop_reason": null
+    },
+    {
+      "claim_id": "CLM-006",
+      "terminal": "awaiting_human",
+      "steps": 3,
+      "bounces": 0,
+      "tokens": 140,
+      "dollars": 0.0,
+      "stop_reason": null
+    },
+    {
+      "claim_id": "CLM-007",
+      "terminal": "awaiting_human",
+      "steps": 3,
+      "bounces": 0,
+      "tokens": 140,
+      "dollars": 0.0,
+      "stop_reason": null
+    },
+    {
+      "claim_id": "CLM-008",
+      "terminal": "awaiting_human",
+      "steps": 3,
+      "bounces": 0,
+      "tokens": 140,
+      "dollars": 0.0,
+      "stop_reason": null
+    },
+    {
+      "claim_id": "CLM-009",
+      "terminal": "rejected",
+      "steps": 3,
+      "bounces": 0,
+      "tokens": 140,
+      "dollars": 0.0,
+      "stop_reason": null
+    },
+    {
+      "claim_id": "CLM-010",
+      "terminal": "rejected",
+      "steps": 3,
+      "bounces": 0,
+      "tokens": 140,
+      "dollars": 0.0,
+      "stop_reason": null
+    },
+    {
+      "claim_id": "CLM-011",
+      "terminal": "rejected",
+      "steps": 3,
+      "bounces": 0,
+      "tokens": 140,
+      "dollars": 0.0,
+      "stop_reason": null
+    },
+    {
+      "claim_id": "CLM-012",
+      "terminal": "rejected",
+      "steps": 3,
+      "bounces": 0,
+      "tokens": 140,
+      "dollars": 0.0,
+      "stop_reason": null
+    },
+    {
+      "claim_id": "CLM-013",
+      "terminal": "rejected",
+      "steps": 3,
+      "bounces": 0,
+      "tokens": 140,
+      "dollars": 0.0,
+      "stop_reason": null
+    },
+    {
+      "claim_id": "CLM-014",
+      "terminal": "rejected",
+      "steps": 3,
+      "bounces": 0,
+      "tokens": 140,
+      "dollars": 0.0,
+      "stop_reason": null
+    },
+    {
+      "claim_id": "CLM-015",
+      "terminal": "rejected",
+      "steps": 3,
+      "bounces": 0,
+      "tokens": 140,
+      "dollars": 0.0,
+      "stop_reason": null
+    },
+    {
+      "claim_id": "CLM-016",
+      "terminal": "rejected",
+      "steps": 3,
+      "bounces": 0,
+      "tokens": 140,
+      "dollars": 0.0,
+      "stop_reason": null
+    },
+    {
+      "claim_id": "CLM-017",
+      "terminal": "step_limit",
+      "steps": 5,
+      "bounces": 2,
+      "tokens": 168,
+      "dollars": 0.0,
+      "stop_reason": "bounce_limit"
+    },
+    {
+      "claim_id": "CLM-018",
+      "terminal": "step_limit",
+      "steps": 5,
+      "bounces": 2,
+      "tokens": 168,
+      "dollars": 0.0,
+      "stop_reason": "bounce_limit"
+    },
+    {
+      "claim_id": "CLM-019",
+      "terminal": "step_limit",
+      "steps": 5,
+      "bounces": 2,
+      "tokens": 168,
+      "dollars": 0.0,
+      "stop_reason": "bounce_limit"
+    },
+    {
+      "claim_id": "CLM-020",
+      "terminal": "step_limit",
+      "steps": 5,
+      "bounces": 2,
+      "tokens": 168,
+      "dollars": 0.0,
+      "stop_reason": "bounce_limit"
+    },
+    {
+      "claim_id": "CLM-021",
+      "terminal": "step_limit",
+      "steps": 5,
+      "bounces": 2,
+      "tokens": 168,
+      "dollars": 0.0,
+      "stop_reason": "bounce_limit"
+    },
+    {
+      "claim_id": "CLM-022",
+      "terminal": "step_limit",
+      "steps": 5,
+      "bounces": 2,
+      "tokens": 168,
+      "dollars": 0.0,
+      "stop_reason": "bounce_limit"
+    },
+    {
+      "claim_id": "CLM-023",
+      "terminal": "step_limit",
+      "steps": 5,
+      "bounces": 2,
+      "tokens": 210,
+      "dollars": 0.0,
+      "stop_reason": "bounce_limit"
+    },
+    {
+      "claim_id": "CLM-024",
+      "terminal": "step_limit",
+      "steps": 5,
+      "bounces": 2,
+      "tokens": 210,
+      "dollars": 0.0,
+      "stop_reason": "bounce_limit"
+    },
+    {
+      "claim_id": "CLM-025",
+      "terminal": "step_limit",
+      "steps": 5,
+      "bounces": 2,
+      "tokens": 210,
+      "dollars": 0.0,
+      "stop_reason": "bounce_limit"
+    },
+    {
+      "claim_id": "CLM-026",
+      "terminal": "rejected",
+      "steps": 1,
+      "bounces": 0,
+      "tokens": 15,
+      "dollars": 0.0,
+      "stop_reason": null
+    },
+    {
+      "claim_id": "CLM-027",
+      "terminal": "rejected",
+      "steps": 1,
+      "bounces": 0,
+      "tokens": 15,
+      "dollars": 0.0,
+      "stop_reason": null
+    },
+    {
+      "claim_id": "CLM-028",
+      "terminal": "rejected",
+      "steps": 3,
+      "bounces": 0,
+      "tokens": 140,
+      "dollars": 0.0,
+      "stop_reason": null
+    },
+    {
+      "claim_id": "CLM-029",
+      "terminal": "rejected",
+      "steps": 3,
+      "bounces": 0,
+      "tokens": 140,
+      "dollars": 0.0,
+      "stop_reason": null
+    },
+    {
+      "claim_id": "CLM-030",
+      "terminal": "awaiting_human",
+      "steps": 3,
+      "bounces": 0,
+      "tokens": 140,
+      "dollars": 0.0,
+      "stop_reason": null
+    }
+  ],
+  "problems": []
+}
